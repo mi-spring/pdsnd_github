@@ -209,7 +209,7 @@ def user_stats(df, city):
     o = p-5
     while l == 0:
         print(df.iloc[o:p])
-        que = input('Do you want to see raw data more? Type "yes" or "no" :\n')
+        que = input('Do you want to explore raw data more? Type "yes" or "no" :\n')
         if que == 'yes':
             p += 5
             o += 5

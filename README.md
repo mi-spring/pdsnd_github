@@ -17,6 +17,12 @@ The data includes information of rental ride:
 - Gender
 - Birth Year
 
+In this project, I write codes to provide the following investigation;
+1. Popular times of travel
+2. Popular stations and trip
+3. Trip duration
+4. User info
+
 
 ### Files used
 chicago.csv
