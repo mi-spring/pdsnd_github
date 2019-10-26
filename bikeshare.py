@@ -140,8 +140,7 @@ def station_stats(df):
     while j[n] == j.max():
         n += 1
 
-    print("\nMost frequent combination of start station and end station trip:")
-    print()
+    print("\nMost frequent combination of start station and end station trip: \n")
     print(j[:n])
 
 
