@@ -140,8 +140,7 @@ def station_stats(df):
     while j[n] == j.max():
         n += 1
 
-    print("\nMost frequent combination of start station and end station trip:")
-    print()
+    print("\nMost frequent combination of start station and end station trip: \n")
     print(j[:n])
 
 
@@ -164,9 +163,9 @@ def trip_duration_stats(df):
     print("  = {}".format(total_td))
 
     # TO DO: display mean travel time
-    mean_travel_time = df['Trip Duration'].mean()
-    print("Mean travel time: {} sec".format(mean_travel_time))
-    mean_td = datetime.timedelta(seconds=int(mean_travel_time))
+    mean_travel = df['Trip Duration'].mean()
+    print("Mean travel time: {} sec".format(mean_travel))
+    mean_td = datetime.timedelta(seconds=int(mean_travel))
     print("  = {}".format(mean_td))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
