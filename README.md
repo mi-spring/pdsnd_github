@@ -7,7 +7,7 @@ Bikeshare Project
 
 ### Description
 I analyzed data about bike-sharing system in three large cities in the United States;Chicago, New York City, and Washington, DC.
-The data includes:
+The data includes information of rental ride:
 - Start Time
 - End Time
 - Trip Duration
